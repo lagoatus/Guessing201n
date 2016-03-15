@@ -13,6 +13,8 @@ var answer1=prompt("Is my name Amina?");
 
 	if ((answer1==="yes")||(answer1==="Yes")||(answer1==="y")||(answer1==="Y"))	{
 
+		counter++;
+
 		alert("Yes! My name is Amina")}
 
 
@@ -21,11 +23,15 @@ var answer2=prompt("Do I have 5 children?");
 
 	if ((answer2==="yes")||(answer2==="Yes")||(answer2==="y")||(answer2==="Y")) {
 
+		counter++;
+
 		alert("Yes! I have 5 children!")}
 
 var answer3=prompt("Do I play the Trombone?");
 
 	if ((answer3==="yes")||(answer3==="Yes")||(answer3==="y")||(answer3==="Y"))	{
+
+		counter++;
 
 			alert("Yes! I play the Trombone!")}
 
@@ -36,21 +42,25 @@ var number=prompt("What is my favorite number?")
 
 	if(number==17)	{
 
-			alert("Yes!")
+			counter++;
+
+			alert("Yes!");
+
+
 	}
 
 
 	else if(number<17)	{
 
-		alert("Too low!")
+		alert("Too low!");
 	}
 
 	else if(number>17) {
 
-		alert("Too high!")
+		alert("Too high!");
 	}
 
 // End of questions results from the counter
 
-		alert("Great! You answered ____ correct! You know me!")
+		alert("Great! You answered "+counter+" correct! You know me!")
 //End of questions.
