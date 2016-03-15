@@ -2,6 +2,10 @@
 
 var welcome=prompt("Welcome to my page! Please answer a few questions that will help you get to know me...Click OK to continue...")
 
+//Created a counter to obtain data from the user and later communicate with the user about their progress
+
+var counter=0
+
 
 //These are the questions about me to the user//
 
@@ -46,5 +50,7 @@ var number=prompt("What is my favorite number?")
 		alert("Too high!")
 	}
 
-// need to add more if/else statements
+// End of questions results from the counter
+
+		alert("Great! You answered ____ correct! You know me!")
 //End of questions.
