@@ -40,4 +40,6 @@ var answer3=prompt("Do I play the Trombone?");
 
 	//		alert("Too low!")
 //	}
+
+// need to add more if/else statements
 //End of questions.
