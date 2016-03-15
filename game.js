@@ -7,7 +7,7 @@ var welcome=prompt("Welcome to my page! Please answer a few questions that will 
 
 var answer1=prompt("Is my name Amina?");
 
-	if (answer1=="yes")	{
+	if (answer1=="yes"||"Yes"||"y"||"Y")	{
 
 		alert("Yes! My name is Amina")}
 
@@ -15,31 +15,36 @@ var answer1=prompt("Is my name Amina?");
 
 var answer2=prompt("Do I have 5 children?");
 
-	if(answer2=="yes") {
+	if(answer2=="yes"||"Yes"||"y"||"Y") {
 
 		alert("Yes! I have 5 children!")}
 
 var answer3=prompt("Do I play the Trombone?");
 
-	if(answer3=="yes")	{
+	if(answer3=="yes"||"Yes"||"y"||"Y")	{
 
 			alert("Yes! I play the Trombone!")}
 
 
 //Numerical variable question
 
-//var number=prompt("What is my favorite number?")
+var number=prompt("What is my favorite number?")
 
-	//if(number= 17)	{
+	if(number==17)	{
 
-		//	alert("Yes!")
-	//}
+			alert("Yes!")
+	}
 
 
-	//else if(number<=17)	{
+	else if(number<17)	{
 
-	//		alert("Too low!")
-//	}
+		alert("Too low!")
+	}
+
+	else if(number>17) {
+
+		alert("Too high!")
+	}
 
 // need to add more if/else statements
 //End of questions.
