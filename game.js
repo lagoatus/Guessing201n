@@ -11,21 +11,21 @@ var counter=0
 
 var answer1=prompt("Is my name Amina?");
 
-	if (answer1=="yes"||"Yes"||"y"||"Y")	{
+	if ((answer1==="yes")||(answer1==="Yes")||(answer1==="y")||(answer1==="Y"))	{
 
 		alert("Yes! My name is Amina")}
 
-//no else statement is included so the alert will pop-up even if the answer is incorrect
+
 
 var answer2=prompt("Do I have 5 children?");
 
-	if(answer2=="yes"||"Yes"||"y"||"Y") {
+	if ((answer2==="yes")||(answer2==="Yes")||(answer2==="y")||(answer2==="Y")) {
 
 		alert("Yes! I have 5 children!")}
 
 var answer3=prompt("Do I play the Trombone?");
 
-	if(answer3=="yes"||"Yes"||"y"||"Y")	{
+	if ((answer3==="yes")||(answer3==="Yes")||(answer3==="y")||(answer3==="Y"))	{
 
 			alert("Yes! I play the Trombone!")}
 
