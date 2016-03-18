@@ -15,7 +15,7 @@ var answer1=prompt("Is my name Amina?");
 
 		counter++;
 
-		alert("Yes! My name is Amina")}
+		document.getElementById("1").innerHTML="Yes! My name is Amina"}
 
 
 
@@ -25,7 +25,7 @@ var answer2=prompt("Do I have 5 children?");
 
 		counter++;
 
-		alert("Yes! I have 5 children!")}
+		document.getElementById("2").innerHTML="Yes! I have 5 children!"}
 
 var answer3=prompt("Do I play the Trombone?");
 
@@ -33,7 +33,7 @@ var answer3=prompt("Do I play the Trombone?");
 
 		counter++;
 
-			alert("Yes! I play the Trombone!")}
+			document.getElementById("3").innerHTML="Yes! I play the Trombone!"}
 
 
 //Numerical variable question
@@ -44,7 +44,7 @@ var number=prompt("What is my favorite number?")
 
 			counter++;
 
-			alert("Yes!");
+			document.getElementById("4").innerHTML="Yes!";
 
 
 	}
@@ -52,15 +52,15 @@ var number=prompt("What is my favorite number?")
 
 	else if(number<17)	{
 
-		alert("Too low!");
+		document.getElementById("4").innerHTML="Too low!";
 	}
 
 	else if(number>17) {
 
-		alert("Too high!");
+		document.getElementById("4").innerHTML="Too high!";
 	}
 
 // End of questions results from the counter
 
-		alert("Great! You answered "+counter+" correct! You know me!")
+		document.getElementById("5").innerHTML="Great! You answered "+counter+" correct! You know me!"
 //End of questions.
