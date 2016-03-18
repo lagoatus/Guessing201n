@@ -6,34 +6,28 @@ var welcome=prompt("Welcome to my page! Please answer a few questions that will 
 
 var counter=0
 
+//This is the function I created to repeat an action that is happening repeatedly
 
+function answersResponse(question, response) {
+
+	var answer1=prompt(question);
+
+		if ((answer1==="yes")||(answer1==="Yes")||(answer1==="y")||(answer1==="Y"))	{
+
+			counter++;
+
+			document.getElementById("1").innerHTML=(response)}
+			
+
+}
 //These are the questions about me to the user//
+answersResponse ("Is my name Amina?", "Yes! My name is Amina");
 
-var answer1=prompt("Is my name Amina?");
+answersResponse ("Do I have 5 children?", "Yes! I have 5 children!");
 
-	if ((answer1==="yes")||(answer1==="Yes")||(answer1==="y")||(answer1==="Y"))	{
-
-		counter++;
-
-		document.getElementById("1").innerHTML="Yes! My name is Amina"}
+answersResponse ("Do I play the Trombone?", "Yes! I play the Trombone!");
 
 
-
-var answer2=prompt("Do I have 5 children?");
-
-	if ((answer2==="yes")||(answer2==="Yes")||(answer2==="y")||(answer2==="Y")) {
-
-		counter++;
-
-		document.getElementById("2").innerHTML="Yes! I have 5 children!"}
-
-var answer3=prompt("Do I play the Trombone?");
-
-	if ((answer3==="yes")||(answer3==="Yes")||(answer3==="y")||(answer3==="Y"))	{
-
-		counter++;
-
-			document.getElementById("3").innerHTML="Yes! I play the Trombone!"}
 
 
 //Numerical variable question
